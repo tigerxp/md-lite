@@ -15,5 +15,6 @@ class MClassSeeder extends Seeder
         DB::table('classes')->delete();
         MClass::create(['title' => 'Rooms', 'description' => 'Rooms Description', ]);
         MClass::create(['title' => 'Computers', 'description' => 'Computers Description', ]);
+        MClass::create(['title' => 'Sensors', 'description' => 'Sensors', ]);
     }
 }
